@@ -1,13 +1,37 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+*{
+  font-family: 'Hedvig Letters Serif', serif;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  text-decoration:none ;
+  list-style: none;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: var(--navber-background);
+
+  
+}
+
+
+:root{
+  --navber-background: rgba(223, 211, 204, 0.575);
+  --text-color: black;
+  --nav-color: #b0937f;
+  --new-onnew: #b19684d3;
+  --new-innew: #8b837cd3;
+  --color-new: #cab2a2d3;
+}
+
+[date-theme="dark"] {
+  --navber-background:  rgba(55, 68, 82, 0.575) ;
+  --text-color: rgb(255, 255, 255);
+  --nav-color: rgb(55, 68, 82);
+  --new-onnew: rgb(47, 57, 66);
+  --new-innew: rgb(34, 41, 48);
+  --color-new: rgb(87, 105, 124);
 }
